@@ -22,7 +22,6 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 80px;
-    /* max-height: 20vh; */
 }
 
 .logo {
@@ -99,16 +98,10 @@ button.cta {
     font-size: 18px;
     font-weight: 500;
     width: 100px;
-    height: 30px;
+    height: auto;
     border-radius: 8px;
-    margin: auto;
-    /* padding: 3px 20px; */
-
 }
 
-/* footer p {
-    margin: 0;
-} */
 
 footer {
     background-color: #1F2937;
@@ -122,7 +115,6 @@ footer {
     flex-direction: column;
     padding: 50px 100px;
     margin-bottom: 30px;
-
 }
 
 .card {
@@ -130,10 +122,7 @@ footer {
     justify-items: center;
     flex-direction: column;
     align-items: center;
-    /* margin: 20px; */
     padding: 20px;
-    /* border: #3882f6;
-    border-width: 2px; */
 }
 
 
@@ -141,7 +130,6 @@ footer {
     width: 75px;
     height: 75px;
     margin: 15px;
-
 }
 
 .information h1 {
@@ -169,8 +157,6 @@ blockquote {
 
 blockquote p {
     color: #1F2937;
-
-
 }
 
 .blue-box {
@@ -178,23 +164,18 @@ blockquote p {
     border-radius: 5px;
     display: flex;
     width: 700px;
-    height: 75px;
-    padding: 20px 60px;
+    height: auto;
+    padding: 30px 60px;
     margin: 50px;
     gap: 30px;
-
+    align-items: center;
 }
 
 p.attention {
     font-size: 20px;
     font-weight: 600;
     margin: 0;
-
-
 } 
-
-.cta-3.p
-
 
 div.cta-3 {
     align-content: end;
@@ -205,5 +186,12 @@ div.cta-3 {
 span {
     color: #e5e7eb;
     margin-bottom: 10px;
+}
 
+.person {
+    display: flex;
+    justify-content: end;
+    color: #1F2937;
+    font-size: 1.5rem;
+    font-weight: 900;
 }
