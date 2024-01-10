@@ -168,7 +168,9 @@ blockquote p {
     padding: 30px 60px;
     margin: 50px;
     gap: 30px;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex: 1;
 }
 
 p.attention {
